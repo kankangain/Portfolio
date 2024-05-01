@@ -1037,6 +1037,12 @@ button:hover a{
   #name-social-container{
     margin-top: auto;
   }
+  #body-header{
+    height: 90vh;
+  }
+  #about{
+    height: auto;
+  }
   .content{
     transform: scale(0.5);
     width: auto;
@@ -1048,7 +1054,7 @@ button:hover a{
   }
   #contact::after
   {
-    transform: scale(0.5) translate(50%, 150%);
+    transform: scale(0.5) translate(50%, 120%);
   }
   .contact-container
   {
@@ -1066,8 +1072,14 @@ button:hover a{
     width: auto;
   }
   .skills-progress{
-    height: auto;
+    height:auto;
     width: 100vw;
-
   }
+  #skills{
+    height: auto;
+  }
+  #portfolio{
+    height: auto;
+  }
+
 }
