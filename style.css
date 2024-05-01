@@ -1032,22 +1032,42 @@ button:hover a{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width : 600px){
 
+  #name-social-container{
+    margin-top: auto;
+  }
+  .content{
+    transform: scale(0.5);
+    width: auto;
+    height: 47vh;
+  }
   #contact::before
   {
-    transform: translate(-200px,-180px);
+    transform: scale(0.55) translate(-50%,-50%);
   }
   #contact::after
   {
-    transform: translate(-200px,-180px);
+    transform: scale(0.5) translate(50%, 150%);
   }
   .contact-container
   {
     padding : 20px;
   }
+  .contact-container{
+    transform: scale(0.7);
+  }
   .contact-container h2
   {
     font-size :28px;
+  }
+  .card-container{
+    transform: scale(0.5);
+    width: auto;
+  }
+  .skills-progress{
+    height: auto;
+    width: 100vw;
+
   }
 }
