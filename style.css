@@ -1044,7 +1044,7 @@ button:hover a{
     height: auto;
   }
   .content{
-    transform: scale(0.5);
+    transform: scale(0.85);
     width: auto;
     height: 47vh;
   }
