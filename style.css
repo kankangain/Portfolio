@@ -1031,7 +1031,14 @@ button:hover a{
   box-shadow: 0 5px 5px rgba(0,0,0,.2);
 }
 
-
+.copyright{
+  font-size: 0.7rem;
+  background-color:#333;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: azure;
+}
 @media screen and (max-width : 600px){
 
   #name-social-container{
